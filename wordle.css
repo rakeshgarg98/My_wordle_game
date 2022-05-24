@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#title {
+    color:darkblue;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#board {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    /* Box */
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+
+    /* Text */
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    background-color: green;
+    color: black;
+    border-color: black;
+}
+
+.present {
+    background-color: yellow;
+    color: black;
+    border-color: black;
+}
+
+.absent {
+    background-color: grey;
+    color: black;
+    border-color: black;
+}
+
+
+.keyboard-row {
+    width: 400px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.key-tile {
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid yellow;
+    background-color: black;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.enter-key-tile {
+    width: 76px;
+    height: 40px;
+    margin: 1px;
+    border: 3px solid black;
+    background-color: red;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
